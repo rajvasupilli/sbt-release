@@ -24,4 +24,4 @@ jobs:
       run: sbt test
       
     - name: Run Release
-      run: sbt release
+      run: sbt release release-version 1.0.99 next-version 1.2.0-SNAPSHOT
